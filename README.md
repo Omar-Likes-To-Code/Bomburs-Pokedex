@@ -1,6 +1,6 @@
 # Bomburs-Pokedex
 
-a fun JS project created with JS, HTML, and CSS, it utilized the  PokeAPI which i will reference at the bottom,
+a simple and  fun JS project created with JS, HTML, and CSS, it utilized the  PokeAPI which i will reference at the bottom,
 
 
 ![image](https://github.com/Omar-Likes-To-Code/Bomburs-Pokedex/assets/135728720/012b72e9-ec83-44d7-908f-eae407f0e2b7)
