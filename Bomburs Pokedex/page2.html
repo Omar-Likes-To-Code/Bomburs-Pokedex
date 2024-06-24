@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 2</title>
+    <link rel="stylesheet" href="page2.css">
+</head>
+<body>
+    <header>
+        <h1>Bomburs Pokedex</h1>
+        <div class="dropdown">
+            <button class="dropbtn">Menu &#9662;</button>
+            <div class="dropdown-content">
+                <a href="index.html">Home</a>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <input type="text" id="pokemonName" placeholder="Write Pokémon location">
+        <button onclick="fetchData()">Fetch Pokémon location</button>
+        <img src="" alt="Pokémon location" id="pokemonLocation" style="display: none">
+    </div>
+    <footer>
+        <p>Powered by PokeAPI</p>
+    </footer>
+
+    <script src="page2.js"></script>
+</body>
+</html>

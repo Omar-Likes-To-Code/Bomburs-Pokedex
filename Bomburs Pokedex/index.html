@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bomburs Pokedex</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Bomburs Pokedex</h1>
+        <div class="dropdown">
+            <button class="dropbtn">Menu &#9662;</button>
+            <div class="dropdown-content">
+                <a href="page2.html">Page 2</a>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <input type="text" id="pokemonName" placeholder="Write Pokémon name">
+        <button onclick="fetchData()">Fetch Pokémon</button>
+        <img src="" alt="Pokémon sprite" id="pokemonSprite" style="display: none">
+    </div>
+    <footer>
+        <p>Powered by PokeAPI</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>

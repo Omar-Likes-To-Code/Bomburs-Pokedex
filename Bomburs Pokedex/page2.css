@@ -1,0 +1,147 @@
+/* Basic reset for better cross-browser compatibility */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Style for the header */
+header {
+    background-color: #151415; /* Neon pink */
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 2px -2px gray;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between; /* Adjust for flexbox layout */
+    align-items: center; /* Center items vertically */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #00ff00; /* Neon green */
+    flex-grow: 1; /* Allow h1 to grow in the flex layout */
+    text-align: center; /* Center text */
+}
+
+/* Style for the dropdown menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style for the dropdown button */
+.dropbtn {
+    background-color: #151415;
+    color: #00ff00;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 10px;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style for the container */
+.container {
+    background-color: #add8e6; /* Light blue background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 800px; /* Fixed width of the container */
+    margin-top: 120px; /* Adjust top margin to center vertically */
+}
+
+/* Style for the input */
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+
+/* Style for the button */
+button {
+    background-color: #043bc7; /* Adjusted button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the image */
+#pokemonSprite {
+    margin-top: 10px;
+    width: 150px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Style for the footer */
+footer {
+    background-color: #000000; /* Neon pink */
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 -4px 2px -2px gray;
+    position: fixed;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    color: #00ff00; /* Neon green */
+    font-size: 1.2em;
+}
